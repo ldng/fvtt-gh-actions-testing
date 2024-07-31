@@ -1,0 +1,26 @@
+{
+  "folder": "1234567891011121",
+  "name": "Page Name",
+  "_id": "1312109876543210",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "abcdefghijklmnop",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "HTML page content"
+      }
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

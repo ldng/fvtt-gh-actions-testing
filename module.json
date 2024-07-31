@@ -1,0 +1,25 @@
+{
+  "id": "ldng-coriolis-adventures",
+  "title": "Ldng Coriolis Adventures",
+  "version": "PLACEHOLDER",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "ldng"
+    }
+  ],
+  "packs": [
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "Journal"
+    }
+  ],
+  "manifest": "PLACEHOLDER",
+  "download": "PLACEHOLDER",
+  "url":  "PLACEHOLDER"
+}
