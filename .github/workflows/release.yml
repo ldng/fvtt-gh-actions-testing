@@ -22,7 +22,7 @@ jobs:
 
       # Compile compendium from json source
       - name: 🔧 Compile Compendiums
-        uses: ldng/fvtt-gh-actions
+        uses: ldng/fvtt-gh-actions@main
         with:
           src: src/packs/journals/journal.json
           dest: dist/packs/journals/
