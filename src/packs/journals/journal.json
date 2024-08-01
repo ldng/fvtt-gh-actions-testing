@@ -1,13 +1,13 @@
 {
-  "folder": "1234567891011121",
+  "folder": "Fghijklmnopqrstu",
   "name": "Page Name",
-  "_id": "1312109876543210",
+  "_id": "Jklmnopqrstuvwxy",
   "pages": [
     {
       "sort": 100000,
       "name": "Introduction",
       "type": "text",
-      "_id": "abcdefghijklmnop",
+      "_id": "Pqrstuvwxyzabcde",
       "system": {},
       "title": {
         "show": true,
@@ -22,5 +22,6 @@
   "sort": 0,
   "ownership": {
     "default": 0
-  }
+  },
+  "_key": "!journal!Klmnopqrstuvwxyz"
 }
