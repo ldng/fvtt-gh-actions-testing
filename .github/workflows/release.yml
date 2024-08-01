@@ -24,7 +24,7 @@ jobs:
       - name: 🔧 Compile Compendiums
         uses: ldng/fvtt-gh-actions@main
         with:
-          src: src/packs/journals/journal.json
+          src: src/packs/journals/
           dest: dist/packs/journals/
 
       # Substitute the Manifest and Download URLs in the module.json
