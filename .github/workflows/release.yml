@@ -60,7 +60,7 @@ jobs:
 
       # Creates the release with its artifacts and description.
       - name: 🚀 Update Release with Artifacts
-        uses: ncipollo/release-action@v1.10.0
+        uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
           name: Release ${{ github.ref_name }}
