@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
 
       - name: 📡 Checkout
@@ -45,17 +48,6 @@ jobs:
           cp module.json dist/module.json
           cd dist/
           zip -r ../module.zip *
-
-
-  release:
-    name: Create & Publish Release
-    needs: build
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
-    steps:
 
       # Creates the release with its artifacts and description.
       - name: 🚀 Update Release with Artifacts
